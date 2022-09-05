@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9a92520-e9e6-4188-8300-e6c262bd7839" name="Changes" comment="set up group entites many to many join table">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+    <list default="true" id="d9a92520-e9e6-4188-8300-e6c262bd7839" name="Changes" comment="set up devise model">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/entity_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/entity_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/group_entity_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/group_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/group_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/kelvin/Desktop/test/budgetify/app/views/shared",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -39,6 +45,11 @@
     "ruby.rails.projectView.checked": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kelvin\Desktop\test\budgetify\app\views\shared" />
+    </key>
+  </component>
   <component name="RunManager" selected="Rails.Development: budgetify">
     <configuration name="Development: budgetify" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="budgetify" />
@@ -131,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662392204869</updated>
-      <workItem from="1662392211028" duration="3285000" />
+      <workItem from="1662392211028" duration="4676000" />
     </task>
     <task id="LOCAL-00001" summary="set up models and validations">
       <created>1662395243294</created>
@@ -147,7 +158,35 @@
       <option name="project" value="LOCAL" />
       <updated>1662395408656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add devise gem">
+      <created>1662395738435</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662395738435</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add devise views">
+      <created>1662395839082</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662395839082</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add devise views">
+      <created>1662395853684</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662395853684</updated>
+    </task>
+    <task id="LOCAL-00006" summary="set up devise model">
+      <created>1662396837567</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662396837567</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +207,9 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="set up models and validations" />
     <MESSAGE value="set up group entites many to many join table" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up group entites many to many join table" />
+    <MESSAGE value="add devise gem" />
+    <MESSAGE value="add devise views" />
+    <MESSAGE value="set up devise model" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up devise model" />
   </component>
 </project>
