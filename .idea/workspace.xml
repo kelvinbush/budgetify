@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9a92520-e9e6-4188-8300-e6c262bd7839" name="Changes" comment="" />
+    <list default="true" id="d9a92520-e9e6-4188-8300-e6c262bd7839" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/models/entity.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/group.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/group_entity.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20220905160707_create_users.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20220905160752_create_entities.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20220905160848_create_groups.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20220905160920_create_group_entities.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20220905160944_add_references.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/entity_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/group_entity_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/group_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EM4bQkvEi9KQMNbeAjVeSP58y8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -124,7 +144,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662392204869</updated>
-      <workItem from="1662392211028" duration="760000" />
+      <workItem from="1662392211028" duration="2645000" />
     </task>
     <servers />
   </component>
