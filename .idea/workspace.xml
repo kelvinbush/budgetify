@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9a92520-e9e6-4188-8300-e6c262bd7839" name="Changes" comment="add model tests">
+    <list default="true" id="d9a92520-e9e6-4188-8300-e6c262bd7839" name="Changes" comment="set up group controller actions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/group_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/group_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/group/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/group/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662392204869</updated>
       <workItem from="1662392211028" duration="4908000" />
-      <workItem from="1662425522044" duration="2486000" />
+      <workItem from="1662425522044" duration="6112000" />
     </task>
     <task id="LOCAL-00001" summary="set up models and validations">
       <created>1662395243294</created>
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662397001281</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="set up group controller actions">
+      <created>1662428229878</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662428229878</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +227,7 @@
     <MESSAGE value="add devise views" />
     <MESSAGE value="set up devise model" />
     <MESSAGE value="add model tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add model tests" />
+    <MESSAGE value="set up group controller actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up group controller actions" />
   </component>
 </project>
