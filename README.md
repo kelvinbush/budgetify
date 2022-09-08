@@ -1,24 +1,52 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# BUDGETIFY
 
-Things you may want to cover:
+> A mobile web application where you can manage your budget: you have a list of transactions associated with a category,
+> so that you can see how much money you spent and on what.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby on Rails
+- PostgresSQL
 
-* Configuration
+## Getting Started
 
-* Database creation
+To get a local copy up and running follow these simple example steps.
 
-* Database initialization
+- Copy this link `https://github.com/kelvinbush/budgetify.git`.
+- Get the directory that you want to clone the repository.
+- Open the command prompt in this directory.
+- Write `git clone https://github.com/kelvinbush/budgetify.git`.
+- Go to the repository folder in your command prompt `cd budgetify`.
+- run `bundle install` to install dependencies
+- run `rails c` to start the local app.
+- run `rspec` to run the tests.
 
-* How to run the test suite
+## Authors
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Kelvin Bush**
 
-* Deployment instructions
+- GitHub: [@kelvinbush](https://github.com/kelvinbush)
+- Twitter: [@kelvin_bush_](https://twitter.com/kelvin_bush_)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kelvin-wachiye-04b469173/)
 
-* ...
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

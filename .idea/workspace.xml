@@ -4,48 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9a92520-e9e6-4188-8300-e6c262bd7839" name="Changes" comment="add linter config files">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d9a92520-e9e6-4188-8300-e6c262bd7839" name="Changes" comment="fix rubocop offences">
+      <change afterPath="$PROJECT_DIR$/MIT.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/entities_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/entities_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/group_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/group_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/entities_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/entities_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/group_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/group_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/ability.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ability.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/entity.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/entity.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/group.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/group.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/group_entity.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/group_entity.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/entities/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/entities/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/entities/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/entities/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/group/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/group/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/group/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/group/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/splash.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/splash.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/devise.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220905160707_create_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220905160707_create_users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220905160752_create_entities.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220905160752_create_entities.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220905160848_create_groups.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220905160848_create_groups.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220905160920_create_group_entities.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220905160920_create_group_entities.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220905160944_add_references.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220905160944_add_references.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220905165255_add_devise_to_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220905165255_add_devise_to_users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220906074810_add_entity_references.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220906074810_add_entity_references.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/entity_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/entity_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/group_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/group_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/entities_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/entities_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/group_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/group_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/system/entities_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/system/entities_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/system/groups_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/system/groups_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="kelvinbush" />
+        <option name="repository" value="budgetify" />
+      </RepoCoordinatesHolder>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -194,7 +164,7 @@
       <updated>1662392204869</updated>
       <workItem from="1662392211028" duration="4908000" />
       <workItem from="1662425522044" duration="17195000" />
-      <workItem from="1662601616963" duration="14243000" />
+      <workItem from="1662601616963" duration="16546000" />
     </task>
     <task id="LOCAL-00001" summary="set up models and validations">
       <created>1662395243294</created>
@@ -329,7 +299,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662623570151</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fix rubocop offences">
+      <created>1662625648357</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1662625648357</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix rubocop offences">
+      <created>1662625660302</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1662625660302</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +350,8 @@
     <MESSAGE value="fix splash screen" />
     <MESSAGE value="add system test" />
     <MESSAGE value="add linter config files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add linter config files" />
+    <MESSAGE value="fix rubocop offences" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix rubocop offences" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/budgetify@Development__budgetify.rcov" NAME="Development: budgetify Coverage Results" MODIFIED="1662625382484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budgetify" />
