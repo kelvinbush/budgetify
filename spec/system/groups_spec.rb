@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Groups", type: :system do
+RSpec.describe 'Groups', type: :system do
   include Devise::Test::IntegrationHelpers
   before do
     driven_by(:rack_test)

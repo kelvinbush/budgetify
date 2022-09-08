@@ -9,7 +9,9 @@ class GroupController < ApplicationController
     end
   end
 
-  def new; end
+  def new
+    @group = current_user.groups.new
+  end
 
   def create
     @user = current_user
