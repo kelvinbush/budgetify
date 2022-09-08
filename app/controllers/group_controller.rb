@@ -1,8 +1,12 @@
 class GroupController < ApplicationController
-  load_and_authorize_resource
+  before_action :authenticate_user!, except: :index
 
   def index
-    @groups = current_user.groups
+    if user_signed_in?
+      @groups = current_user.groups
+    else
+      render 'users/splash'
+    end
   end
 
   def new; end
