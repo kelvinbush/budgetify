@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9a92520-e9e6-4188-8300-e6c262bd7839" name="Changes" comment="add back button">
-      <change afterPath="$PROJECT_DIR$/app/views/users/splash.html.erb" afterDir="false" />
+    <list default="true" id="d9a92520-e9e6-4188-8300-e6c262bd7839" name="Changes" comment="fix splash screen">
+      <change beforePath="$PROJECT_DIR$/.idea/budgetify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/budgetify.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/entities_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/entities_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/group_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/group_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/entities/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/entities/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helpers/entities_helper_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helpers/group_helper_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helpers/users_helper_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/entities_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/entities_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/group_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/group_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/users_spec.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +163,7 @@
       <updated>1662392204869</updated>
       <workItem from="1662392211028" duration="4908000" />
       <workItem from="1662425522044" duration="17195000" />
-      <workItem from="1662601616963" duration="8544000" />
+      <workItem from="1662601616963" duration="12163000" />
     </task>
     <task id="LOCAL-00001" summary="set up models and validations">
       <created>1662395243294</created>
@@ -272,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662607419011</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix splash screen">
+      <created>1662610486659</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662610486659</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +318,8 @@
     <MESSAGE value="add group entities references" />
     <MESSAGE value="clean up" />
     <MESSAGE value="add back button" />
-    <option name="LAST_COMMIT_MESSAGE" value="add back button" />
+    <MESSAGE value="fix splash screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix splash screen" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/budgetify@Development__budgetify.rcov" NAME="Development: budgetify Coverage Results" MODIFIED="1662602008066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budgetify" />
