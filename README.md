@@ -6,6 +6,7 @@
 > so that you can see how much money you spent and on what.
 
 ## Demo
+
 Check out the live app [here](https://limitless-castle-88719.herokuapp.com/)
 
 ## Built With
@@ -46,9 +47,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This web application UI design was inspired by [Gregoire Vella on Behance.](https://www.behance.net/gregoirevella)
 
 ## 📝 License
 
