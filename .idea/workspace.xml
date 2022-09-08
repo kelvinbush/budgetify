@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9a92520-e9e6-4188-8300-e6c262bd7839" name="Changes" comment="add group entities references" />
+    <list default="true" id="d9a92520-e9e6-4188-8300-e6c262bd7839" name="Changes" comment="clean up">
+      <change afterPath="$PROJECT_DIR$/app/views/entities/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/entities/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/budgetify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/budgetify.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/entities_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/entities_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/group_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/group_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/kelvin/Desktop/test/budgetify/app/views",
+    "last_opened_file_path": "C:/Users/kelvin/Desktop/test/budgetify/app/views/shared",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,8 +62,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kelvin\Desktop\test\budgetify\app\views" />
       <recent name="C:\Users\kelvin\Desktop\test\budgetify\app\views\shared" />
+      <recent name="C:\Users\kelvin\Desktop\test\budgetify\app\views\entities" />
+      <recent name="C:\Users\kelvin\Desktop\test\budgetify\app\views" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: budgetify">
@@ -149,7 +160,8 @@
       <option name="presentableId" value="Default" />
       <updated>1662392204869</updated>
       <workItem from="1662392211028" duration="4908000" />
-      <workItem from="1662425522044" duration="12362000" />
+      <workItem from="1662425522044" duration="17195000" />
+      <workItem from="1662601616963" duration="5440000" />
     </task>
     <task id="LOCAL-00001" summary="set up models and validations">
       <created>1662395243294</created>
@@ -249,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662450773178</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="clean up">
+      <created>1662451081927</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662451081927</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,9 +300,10 @@
     <MESSAGE value="set up category list ui" />
     <MESSAGE value="implement home page" />
     <MESSAGE value="add group entities references" />
-    <option name="LAST_COMMIT_MESSAGE" value="add group entities references" />
+    <MESSAGE value="clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean up" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/budgetify@Development__budgetify.rcov" NAME="Development: budgetify Coverage Results" MODIFIED="1662443293562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budgetify" />
+    <SUITE FILE_PATH="coverage/budgetify@Development__budgetify.rcov" NAME="Development: budgetify Coverage Results" MODIFIED="1662602008066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="budgetify" />
   </component>
 </project>
